@@ -8,6 +8,7 @@ import emoji from "react-easy-emoji";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Greeting() {
+
   const { isDark } = useContext(StyleContext);
   return (
     <Fade bottom duration={1000} distance="40px">
@@ -34,10 +35,11 @@ export default function Greeting() {
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
+                <Button text="Check out StrixEye" href="https://strixeye.com"color="#6F57A4" />
+
                 <Button
                   text="See my resume"
-                  newTab={true}
-                  href={greeting.resumeLink}
+                  onclick="sendMail()"
                 />
               </div>
             </div>

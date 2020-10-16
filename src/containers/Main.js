@@ -49,12 +49,12 @@ export default class Main extends Component {
           <Education />
           <WorkExperience />
           <Projects />
-          <StartupProject />
-          <Achievement />
+          {/* <StartupProject /> */}
+          {/* <Achievement /> */}
           <Blogs />
-          <Talks />
+          {/* <Talks /> */}
           <Twitter />
-          <Podcast />
+          {/* <Podcast /> */}
           <Profile />
           <Footer />
           <Top />

@@ -7,9 +7,9 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
+  username: "Ali Keser",
+  title: "Hi all, I'm Ali Omer Keser",
+  subTitle: emoji("a weird computer scientist 🤓 having an experience of understanding and manipulating bits to do cool things."),
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
 
@@ -17,13 +17,14 @@ const greeting = {
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
+  github: "https://github.com/aomerk",
+  linkedin: "https://www.linkedin.com/in/omerkeser/",
+  twitter: "https://www.twitter.com/aliomerkeser/",
+  instagram: "https://www.instagram.com/aliomerkeser/",
+  gmail: "ali@strixeye.com",
+  facebook: "https://www.facebook.com/omerali.keser",
+  blog: "https://freethemalloc.com",
+  stackoverflow: "https://stackoverflow.com/users/8035711/keser"
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -31,45 +32,50 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "COMPUTER SCIENTIST WITH AN ENGINEER ATTITUDE AND DATA SCIENTIST MATH BUT CASUALLY DEVELOPS FOR LIVING ",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Make better inter-department decisions and manage communications better between Client-Side, Server-Side and Data-Side teams."),
+    emoji("⚡ Improve team work and motivation"),
+    emoji("⚡ I'll try my best to build sustainable, scalable and profitable projects for my clients")
   ],
 
-/* Make Sure You include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
+  /* Make Sure You include correct Font Awesome Classname to view your icon
+  https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Golang",
+      fontAwesomeClassname: "fas fa-code"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "C",
+      fontAwesomeClassname: "fab fa-cuttlefish"
+    },
+    {
+      skillName: "Machine Learning",
+      fontAwesomeClassname: "fas fa-robot"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
     },
+
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -87,12 +93,30 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "Android",
+      fontAwesomeClassname: "fab fa-android"
+    },
+    {
+      skillName: "Microcontrollers, RPI, Arduino",
+      fontAwesomeClassname: "fas fa-microchip"
     },
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    }
+    ,
+    {
+      skillName: "chrome extensions",
+      fontAwesomeClassname: "fab fa-chrome"
+    },
+    {
+      skillName: "linux",
+      fontAwesomeClassname: "fab fa-linux"
+    }
+    ,
+    {
+      skillName: "and more...",
+      fontAwesomeClassname: "fas fa-ellipsis-h"
     }
   ]
 };
@@ -103,25 +127,33 @@ const educationInfo = {
   viewEducation: true, // Set it to true to see education section
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Technische Universität Berlin",
+      logo: require("./assets/images/tub-vector.png"),
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "ongoing",
+      desc: "Grade: A-, with Scholar. One of the best Computer Science programs in the World",
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      ]
+      schoolName: "Istanbul University",
+      logo: require("./assets/images/iu-logo.png"),
+      subHeader: "Bachelor of Science in Economics",
+      duration: "ongoing",
+
+    },
+    {
+      schoolName: "Istanbul University",
+      logo: require("./assets/images/iu-logo.png"),
+      subHeader: "Bachelor of Science in Linguistics",
+      duration: "ongoing",
+      desc: "Entered first place"
+
+    },
+    {
+      schoolName: "Istanbul Lisesi",
+      logo: require("./assets/images/iel-logo.png"),
+      subHeader: "Bachelor of Science in Linguistics",
+      duration: "GPA: 90/100",
+      desc: "One of the best high schools in Turkey with acceptance rate under 0.1%, a history over 130 years and a german curriculum."
     }
   ]
 }
@@ -132,16 +164,21 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
+      Stack: "Programming",  //Insert stack or technology you have experience in
       progressPercentage: "90%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Project Arhictecture Design and Management",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Data Science",
       progressPercentage: "60%"
+    }
+    ,
+    {
+      Stack: "Design",
+      progressPercentage: "6%"
     }
   ]
 };
@@ -153,29 +190,35 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Co-Founder of Technology",
+      company: "StrixEye",
+      companylogo: require("./assets/images/strixeye_icon-purple-bg-white.svg"),
+      date: "March 2020 – Present",
+      desc: "StrixEye does real-time anomaly detection for web applications with machine learning and generate an alarm when your web applications are under attack..",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "architecting and engineering of distributed real-time cyber security system",
+        "Responsible for development of Machine Learning model",
+        "Managing research and development teams"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer",
+      company: "Bopshorus Innovations",
+      companylogo: require("./assets/images/bs-logo.png"),
+      date: "May 2018 – May 2020",
+      desc: "For users seeking specialized Water-Methanol Injection kits or electronic products outside of our standard product line, we have a number of custom-design components and manufacturing services.",
+      descBullets: [
+        "architecting and engineering of embedded high-performance products"
+      ]
     },
+
+
+
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Android Developer",
+      company: "JokerMenu",
+      companylogo: require("./assets/images/jokermenu-logo.png"),
+      date: "March 2017 – December 2017"
     },
   ]
 };
@@ -185,8 +228,8 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
+  githubUserName: "aomerk", // Change to your github username to view your profile in Contact Section.
+  showGithubProfile: "true" // Set true or false to show Contact profile using Github, defaults to false
 };
 
 
@@ -253,14 +296,14 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: "https://freethemalloc.com/2020/08/09/perceptron",
+      title: "What are perceptrons?",
+      description: "Do you want to have an intuitive opinion on how Machines really learn?"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "https://freethemalloc.com/2020/08/06/unpaired-image-to-image-translation-using-cycle-consistent-adversial-networks-what-is-cyclehan",
+      title: "What is CycleGAN?",
+      description: "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks"
     }
   ]
 };
@@ -294,15 +337,15 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  // number: "+92-3243454077",
+  email_address: "aliomerkeser@gmail.com"
 };
 
 //Twitter Section
 
 const twitterDetails = {
 
-  userName : "twitter"//Replace "twitter" with your twitter username without @
+  userName: "aliomerkeser"//Replace "twitter" with your twitter username without @
 
 };
-export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo, twitterDetails };
