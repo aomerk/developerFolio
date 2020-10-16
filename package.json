@@ -1,7 +1,7 @@
 {
-  "homepage": "https://developerfolio.js.org/",
-  "name": "saadpasta.github.io",
-  "version": "0.1.0",
+  "homepage": "https://omer.beer/",
+  "name": "omer.beer",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@apollo/react-hooks": "^3.1.4",
